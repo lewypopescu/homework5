@@ -108,6 +108,8 @@ body {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--OCEAN);
+
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list {
@@ -130,6 +132,8 @@ body {
 .address-link:hover,
 .address-link:focus {
   color: var(--OCEAN);
+
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts > .address-link {
@@ -211,6 +215,8 @@ body {
 .hero-image-button:hover,
 .hero-image-button:focus {
   background-color: var(--OCEAN);
+
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* section one styles , webstudio qualities */
@@ -281,6 +287,8 @@ body {
 .svg-icon-social-media:hover,
 .svg-icon-social-media:focus {
   background-color: #404bbf;
+
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .trait-header {
@@ -429,6 +437,8 @@ body {
 .svg-icon-company:focus {
   border-color: #404bbf;
   color: #404bbf;
+
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-fillcurrentcolor-companies {
@@ -523,6 +533,8 @@ body {
 .svg-footer-icon-social-media:hover,
 .svg-footer-icon-social-media:focus {
   background-color: #31d0aa;
+
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svgfill {
@@ -568,6 +580,8 @@ body {
   border: 1px solid transparent;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*list of portfolio projects */
@@ -614,4 +628,6 @@ body {
 .project-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
