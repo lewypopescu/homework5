@@ -66,7 +66,9 @@
           <h1 class="hero-image-header">
             Effective Solutions for Your Business
           </h1>
-          <button class="hero-image-button" type="button">Order Service</button>
+          <button class="hero-image-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!--section one list of qualities of Webstudio-->
@@ -472,12 +474,12 @@
         </div>
       </div>
     </footer>
-    <div class="modal is-hidden" data-modal-open>
-      <div class="modal_2">
-        <button type="button" class="button-modal-close" data-model-close>
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-second">
+        <button type="button" class="button-modal-close" data-modal-close>
           Close
         </button>
-        <svg width="8" height="8" class="">
+        <svg width="8" height="8" class="svg-close">
           <use href="./images/close.svg#close-button" />
         </svg>
       </div>
