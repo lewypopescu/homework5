@@ -15,6 +15,19 @@ svg {
   display: block;
 }
 
+.nav-link-active::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  display: block;
+
+  background-color: var(--OCEAN, #404bbf);
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-radius: 2px;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -210,13 +223,13 @@ body {
   height: 56px;
   border: none;
   margin: auto;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-image-button:hover,
 .hero-image-button:focus {
   background-color: var(--OCEAN);
-
-  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* section one styles , webstudio qualities */
@@ -282,13 +295,15 @@ body {
   align-items: center;
   gap: 24px;
   padding: 32px 0;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-icon-social-media:hover,
 .svg-icon-social-media:focus {
   background-color: #404bbf;
 
-  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .trait-header {
@@ -515,6 +530,8 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-footer-icon-list-social-media {
@@ -533,8 +550,6 @@ body {
 .svg-footer-icon-social-media:hover,
 .svg-footer-icon-social-media:focus {
   background-color: #31d0aa;
-
-  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svgfill {
